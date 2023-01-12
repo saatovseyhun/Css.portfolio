@@ -1,0 +1,123 @@
+/* header start */
+
+.header {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 2px solid black;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header-div-logo h1 {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: aqua;
+  padding: 1rem;
+}
+
+.header .header-div-home {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.header .header-div-home ul {
+  display: flex;
+  align-items: center;
+}
+
+.header .header-div-home ul li a {
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header .header-div-home ul li + li::before {
+  content: "|";
+  margin-left: 10px;
+}
+
+/* header finish */
+
+/* section start */
+
+.section {
+  max-width: 1200px;
+  height: auto;
+  display: flex;
+  margin: 30px;
+}
+
+.section .div-section-about {
+  width: 70%;
+  height: 70vh;
+  background-color: yellow;
+}
+
+.section .div-section-about h1 {
+  font-size: 30px;
+  padding: 5px 10px;
+}
+
+.section .div-section-about img {
+  float: left;
+  padding: 5px 10px;
+}
+
+.section .div-section-about p {
+  padding: 5px 10px;
+}
+.section .div-section-connect {
+  width: 30%;
+  height: 30vh;
+  background-color: tomato;
+  margin-left: 20px;
+}
+
+.section .div-section-connect h1 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.section .div-section-connect img {
+  width: 50px;
+  height: auto;
+  margin: 5px 10px;
+}
+
+.section .div-section-connect .img {
+  display: flex;
+  justify-content: center;
+}
+/* section finish */
+
+/* footer start */
+
+.div1-footer {
+  background-color: blue;
+  height: 1rem;
+  width: 100%;
+}
+
+.div2-footer {
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  color: red;
+}
